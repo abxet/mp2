@@ -54,9 +54,9 @@ Copy code
 ### 1️⃣ Clone the Repo  
 ```bash
 git clone https://github.com/abxet/mp2.git
-cd expense-management
+cd expense-management```
 2️⃣ Install Dependencies
-bash
+```bash
 Copy code
 # Backend
 cd backend
@@ -65,35 +65,39 @@ npm install
 # Frontend
 cd ../frontend
 npm install
+```
 3️⃣ Configure Environment Variables
 Create a .env file in the backend:
-
+```
 env
 Copy code
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
+```
 4️⃣ Run the App
-bash
+```bash
 Copy code
 # Run backend
 cd backend
 npm start
 
+
 # Run frontend (new terminal)
+
 cd frontend
 npm start
 👉 App runs at http://localhost:3000
 
-📸 Screenshots
-Add screenshots of your app here (Dashboard, Login, Expense List, etc.)
+```
 
 🧪 Testing
 Run tests with:
 
-bash
+```bash
 Copy code
 npm test
+```
 🚀 Deployment
 🌍 Frontend → Vercel / Netlify
 
