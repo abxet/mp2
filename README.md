@@ -35,7 +35,7 @@ Built for individuals who want **better control over their money** using a moder
 ---
 
 ## 📂 Project Structure  
-
+```
 expense-management/
 │── backend/ # Express server, routes, controllers, models
 │── frontend/ # React app (MUI + Redux)
@@ -43,7 +43,7 @@ expense-management/
 │── .env # Environment variables
 │── package.json
 │── README.md
-
+```
 yaml
 Copy code
 
@@ -54,7 +54,8 @@ Copy code
 ### 1️⃣ Clone the Repo  
 ```bash
 git clone https://github.com/abxet/mp2.git
-cd expense-management```
+cd expense-management
+```
 2️⃣ Install Dependencies
 ```bash
 Copy code
